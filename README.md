@@ -1,4 +1,4 @@
-&nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/Daniboy370/IMU-Denoising/blob/main/figrues/Logo.png?raw=true" width="500" />
+&nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/ansfl/MEMS-IMU-Denoising/blob/main/figrues/Logo.png?raw=true" width="500" />
 
 
 <!-- # MEMS-IMU-Denoising
@@ -7,11 +7,11 @@ This repository contains the experimental dataset associated with our paper "Dat
 ## Introduction
 Modern navigation solutions are largely dependent on the performances of the standalone inertial sensors, especially at times when no external sources are available. During these outages, the inertial navigation solution is likely to degrade over time due to instrumental noises sources, particularly when using consumer low-cost inertial sensors. Conventionally, model-based estimation algorithms are employed to reduce noise levels and enhance meaningful information, thus improving the navigation solution directly. However, guaranteeing their optimality often proves to be challenging as sensors performance differ in manufacturing quality, process noise modeling, and calibration precision. In the literature, most inertial denoising models are model-based when recently several data-driven approaches were suggested primarily for gyroscope measurements denoising. Data-driven approaches for accelerometer denoising task are more challenging due to the unknown gravity projection on the accelerometer axes. To fill this gap, we propose several learning-based approaches and compare their performances with prominent denoising algorithms, in terms of pure noise removal: 
 
-&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <img src="https://github.com/Daniboy370/IMU-Denoising/blob/main/figrues/VID_denoising.gif" width="700" class='center'/>
+&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <img src="https://github.com/ansfl/MEMS-IMU-Denoising/blob/main/figrues/VID_denoising.gif" width="700" class='center'/>
 
 Next, we compare their effectiveness over the well-known stationary coarse alignment procedure, where roll and pitch angles are being evaluated from specific forces. Based on the benchmarking results obtained in field experiments, we show that: (i) learning-based models perform better than traditional signal processing filtering; (ii) non-parametric kNN algorithm outperforms all state of the art deep learning models examined in this study; (iii) denoising can be fruitful for pure inertial signal reconstruction, but moreover for navigation-related tasks, as both errors are shown to be reduced up to one order of magnitude.
 
-&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <img src="https://github.com/Daniboy370/IMU-Denoising/blob/main/figrues/VID_levelling.gif" width="650" class='center'/>
+&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <img src="https://github.com/ansfl/MEMS-IMU-Denoising/blob/main/figrues/VID_levelling.gif" width="650" class='center'/>
 
 ## Dataset
 
@@ -21,11 +21,11 @@ Inertial measurements used in this research are based on a dataset previously pu
 Lab [`MRU-P unit`](https://www.inertiallabs.com/mru-datasheet). 
 
 &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; 
-&nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/Daniboy370/IMU-Denoising/blob/main/figrues/Device_2.jpg?raw=true" width="425" />
+&nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/ansfl/MEMS-IMU-Denoising/blob/main/figrues/Device_2.jpg?raw=true" width="425" />
 
 Here however, to ensure stationarity of the accelerometer measurements, samples were extracted from platform at complete rest, at a large number of platform orientations. This way, accelerometer readings are guaranteed to reflect gravity projection only in a variety of roll (ϕ) and pitch (θ) angles. 
 
-&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/Daniboy370/IMU-Denoising/blob/main/figrues/fig_test_set.png?raw=true" width="550" />
+&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/ansfl/MEMS-IMU-Denoising/blob/main/figrues/fig_test_set.png?raw=true" width="550" />
 
 ## Code
 
