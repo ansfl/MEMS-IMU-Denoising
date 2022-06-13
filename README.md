@@ -61,7 +61,7 @@ If you found the paper's CODE helpful in your research, please cite our paper:
 ```
 @article{engelsman2022datadriven,
   title={Data-Driven Denoising of Accelerometer Signals},
-  author={Engelsman Daniel and Klein, Itzik},
+  author={Engelsman Daniel, Klein Itzik},
   journal={arXiv preprint arXiv:2008.07397},
   year={2022},
 ```
