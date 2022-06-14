@@ -62,7 +62,6 @@ If you found the experimental **DATA** useful for your research, please cite our
   title={The Autonomous Platforms Inertial Dataset},
   author={Shurin, Artur and Saraev, Alex and Yona, Mor and Gutnik, Yevgeni and Faber, Sharon and Etzion, Aviad and Klein, Itzik},
   journal={IEEE Access},
-  volume={10},
   pages={10191--10201},
   year={2022},
   publisher={IEEE}
@@ -70,7 +69,6 @@ If you found the experimental **DATA** useful for your research, please cite our
 ```
 
 If you found the paper's CODE helpful in your research, please cite our paper:
-
 ```
 @article{engelsman2022datadriven,
   title={Data-Driven Denoising of Accelerometer Signals},
