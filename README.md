@@ -56,18 +56,6 @@ For convenience, two notebooks are provided, enabling reproduction of our result
 
 ## Citation
 
-If you found the paper's CODE helpful in your research, please cite our paper:
-
-```
-@article{engelsman2022datadriven,
-  title={Data-Driven Denoising of Accelerometer Signals},
-  author = {Engelsman, Daniel and Klein, Itzik}
-  journal={arXiv preprint arXiv:2008.07397},
-  url = {https://arxiv.org/abs/2206.05937},
-  year={2022},
-}
-```
-
 If you found the experimental **DATA** useful for your research, please cite our paper:
 ```
 @article{shurin2022autonomous,
@@ -80,6 +68,20 @@ If you found the experimental **DATA** useful for your research, please cite our
   publisher={IEEE}
 }
 ```
+
+If you found the paper's CODE helpful in your research, please cite our paper:
+
+```
+@article{engelsman2022datadriven,
+  title={Data-Driven Denoising of Accelerometer Signals},
+  author = {Engelsman, Daniel and Klein, Itzik}
+  journal={arXiv preprint arXiv:2008.07397},
+  url = {https://arxiv.org/abs/2206.05937},
+  year={2022},
+}
+```
+[<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ArXiv_web.svg/250px-ArXiv_web.svg.png width=70/>](https://arxiv.org/abs/2206.05937)
+
 <!-- ======================= JUNKYARD =======================  -->
 
 <!-- &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Hq2kdrGidvbas2uoS_PyhQSY333reCq7/view?usp=sharing) -->
