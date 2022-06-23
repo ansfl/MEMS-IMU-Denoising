@@ -70,10 +70,10 @@ If you found the experimental **DATA** useful for your research, please cite our
 
 If you found the paper's CODE helpful in your research, please cite our paper:
 ```
-@article{engelsman2022datadriven,
+@article{engelsman2022data,
   title={Data-Driven Denoising of Accelerometer Signals},
   author = {Engelsman, Daniel and Klein, Itzik}
-  journal={arXiv preprint arXiv:2008.07397},
+  journal={arXiv preprint arXiv:2206.05937},
   url = {https://arxiv.org/abs/2206.05937},
   year={2022},
 }
